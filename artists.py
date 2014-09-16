@@ -12,3 +12,15 @@ len(ARTISTS)
 NUM_ARTISTS = len(ARTISTS)
 len(THE_GREAT_QUESTION)
 CHARACTERS = len(THE_GREAT_QUESTION)
+if ( 'Creators' in THE_GREAT_QUESTION):
+	print "Creators is in the variable"
+else:
+	print "Creators not in the variable"
+
+if ( 'SPLINTER' in ARTISTS):
+	print "SPLINTER is in the variable"
+else:
+	print "SPLINTER is not in the variable"
+
+
+
