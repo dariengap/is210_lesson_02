@@ -18,3 +18,10 @@ NERVOUS_AS = """
 
 
 """
+NERVOUS_AS.strip()
+NERVOUS_AS = """//////////A long-tailed cat in a room full of rockin' chairs.,,,,,,,,,,"""
+NERVOUS_AS = NERVOUS_AS.rstrip(',').lstrip('/')
+
+
+
+
